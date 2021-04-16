@@ -1,0 +1,58 @@
+Cấu trúc thư mục
++ src: source code
+	+ main.js => file gốc
+	+ App.vue => Component gốc
+	+ assests: hình ảnh, font
+	+ components => chứa các component con
+
++ Component: 3 thành phần
+	+ Template: html => hiển thị
+	+ Script: js => xử lý
+	+ style: css => làm đẹp
+
++ Tạo component:
+	+ Tạo file .vue
+	+ Import
+	+ Khai báo
+
++ Root element: 
+	+ Bắt buộc
+
++ 2 ways binding
+	+ Buld dữ liệu 2 chiều
+	+ Phụ thuộc vào kiểu Element
+	+ Lifecycle: Vòng đời của component trong true
+	+ Binding:
+		+ Đẩy dữ liệu từ dưới Data lên trên
+		+ Value binding: {{ }}
+		+ property binding: 
+		+ v-bind:[Tên_thuộc_tính] = "Biến"
+			+ Viết tắt: dấu 2 chấm
+		+ style and class binding:
+			:class
+	+ Model: 
+		+ Liên kết element với property
+	+ Event handling:
+		+ Bắt sự kiện từ các Element
+		+ v-on:[Tên_sự_kiện]="abcxyz()"
+			=> Viết tắt: @
+		+ Prevent default event: 
+			=> Hủy bỏ event mặc định của element đi
+	+ ref: 
+		+ Ánh xạ đến chính element
+	+ Conditinal rendering:
+		+ v-show: Ẩn/hiện 1 element theo điều kiện
+		+ v-hide: ngược lại của v-show
+		+ v-if: cũng là ẩn hiện nhưng đk khác( thẻ sẽ biến mất chứ ko ẩn )
+		+ v-else:
+	+ List rendering
+		+ v-for
+	+ Methods:
+		+ Hàm của vue object
+
+
+
+
+
+
+

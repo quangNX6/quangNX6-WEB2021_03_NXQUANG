@@ -1,0 +1,97 @@
+.content .pagination{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background: white;
+}
+
+.content .pagination .text-left{
+    position: absolute;
+    left: 0;
+    padding-left: 16px;
+}
+
+.content .pagination .text-right{
+    position: absolute;
+    right: 320px;
+    background-color: #ffffff;
+    padding: 4px 0 4px 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #bbb;
+    height: 20px;
+}
+.pagination .text-right .m-icon-updown{
+    width: 16px;
+    height: 16px;
+    background-image: url("../assets/img/Sprites.64af8f61.svg");
+    background-repeat: no-repeat;
+    margin: 4px 8px;
+    background-position: -560px -359px;
+}
+
+.content .pagination .paging{
+    display: flex;
+    /* align-items: center; */
+    right: 60px;
+    position: absolute;
+}
+/* định dạng button phân trang */
+.btn-paging{
+    height: 24px;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    padding: 4px;
+    margin: auto 8px;
+    padding-top: 7px;
+}
+/* .btn-paging:hover{
+    cursor: pointer;
+    background-color: #bbbbbb;
+    border-radius: 4px;
+} */
+
+/* .btn-first-page{
+    background-image: url('../assets/icon/btn-firstpage.svg');
+} 
+
+.btn-prev-page{
+    background-image: url('../assets/icon/btn-prev-page.svg');
+}
+
+.btn-next-page{
+    background-image: url('../assets/icon/btn-next-page.svg');
+}
+.btn-last-page{
+    background-image: url('../assets/icon/btn-lastpage.svg');
+} */
+
+.page-number{
+    display: flex;
+}
+
+.p-number{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin: auto 8px;
+    text-align: center;
+    vertical-align: central;
+}
+
+.p-number:hover{
+    border: 1px solid #e0e0e0;
+    color: #000000;
+    cursor: pointer;
+}
+
+.p-active{
+    border: 1px solid #e0e0e0;
+    font-weight: bold;
+}
